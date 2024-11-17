@@ -13,7 +13,7 @@ class Empleado{
     this.#sueldo = sueldo;
    }
 
-    //Como son atrbiutos privados tenemos que hacer un metodo para obtenerlos:
+    //Como son atributos privados tenemos que hacer un metodo para obtenerlos:
     get nombre() {
         return this.#nombre;
     }
